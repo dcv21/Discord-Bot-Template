@@ -14,8 +14,8 @@ module.exports = client => {
         console.log(err, origin);
     });
 
-    process.on('multipleResolves', (type, promise, reason) => {
-        console.log('Multiple Resolves');
-        console.log(type, promise, reason);
-    });
+    // process.on('multipleResolves', (type, promise, reason) => {
+    //     console.log('Multiple Resolves');
+    //     console.log(type, promise, reason);
+    // });
 }
